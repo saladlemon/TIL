@@ -24,7 +24,7 @@ CODE
 >   >   >Third blockquote
 
 # 목록
-## 순서 있는 목록
+## 순서있는 목록
 ```
 1. First
 2. Second
@@ -33,3 +33,29 @@ CODE
 1. First
 2. Second
 3. Third
+
+숫자와 상관없이 순서는 자동적으로 내림차순으로 정리된다.
+
+## 순서없는 목록
+```
+* C
+    * Javascript
+        * python
++ C
+    + Javascript
+        + python
+- C
+    - Javascript
+        - python
+```
+* C
+    * Javascript
+        * python
++ C
+    + Javascript
+        + python
+- C
+    - Javascript
+        - python
+
+들여쓰기는 tap으로 한다.
