@@ -10,6 +10,8 @@ _code_
 ##### Title5
 ###### Title6
 ```
+_preview_
+
 ![title](markdownimg/title.PNG)
 
 # BlockQuote(인용구)
@@ -21,7 +23,7 @@ _code_
 >   >Second blockquote
 >   >   >Third blockquote
 ```
-
+_preview_
 >First blockquote
 >   >Second blockquote
 >   >   >Third blockquote
@@ -34,7 +36,7 @@ _code_
 2. Second
 3. Third
 ```
-
+_preview_
 1. First
 2. Second
 3. Third
@@ -55,7 +57,7 @@ _code_
     - Javascript
         - python
 ```
-
+_preview_
 * C
     * Javascript
         * python
