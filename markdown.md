@@ -1,5 +1,6 @@
 # 제목(Header)
 제목은 `<h1> ~ <h6>`로 표현 가능하며, `#`의 개수로 단계를 나타낼 수 있습니다. 
+
 _code_
 ```
 # Title1
@@ -9,7 +10,6 @@ _code_
 ##### Title5
 ###### Title6
 ```
-_preview_
 ![title](markdownimg/title.PNG)
 
 # BlockQuote(인용구)
@@ -21,7 +21,7 @@ _code_
 >   >Second blockquote
 >   >   >Third blockquote
 ```
-_preview_
+
 >First blockquote
 >   >Second blockquote
 >   >   >Third blockquote
@@ -34,7 +34,6 @@ _code_
 2. Second
 3. Third
 ```
-_preview_
 
 1. First
 2. Second
@@ -56,7 +55,7 @@ _code_
     - Javascript
         - python
 ```
-_preview_
+
 * C
     * Javascript
         * python
@@ -79,7 +78,8 @@ _preview_
 
 ` ``` `을 쓰고 그 뒤에 원하는 언어를 명시하고 코드를 작성합니다.
  
-_code_
+ _code_
+
 ![codeblock](markdownimg/codeblock.PNG)
 
 _preview_
