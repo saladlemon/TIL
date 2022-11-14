@@ -212,5 +212,79 @@
             <dd>국화과의 한해살이 or 두해살이풀</dd>
         </dl>
         <hr>
+        <p><mark>테이블</mark></p>
+        <p>여러 종류의 데이터를 정리하여 보여주는 표</p>
+        <table style="width:100%">
+            <tr style="background-color:lightgrey">
+                <th>Tuna</th>
+                <th>Whale</th>
+            </tr>
+            <tr>
+                <td>Shark</td>
+                <td>Octopus</td>
+            </tr>
+            <tr>
+                <td>Squid</td>
+                <td>Mackerel</td>
+            </tr>
+        </table>
+        <p>colspan을 사용하면 테이블의 열을 합칠 수 있다</p>
+        <table style="width:100%">
+            <tr style="background-color: bisque">
+                <td>Tuna</td>
+                <td colspan="2">Whale</td>
+            </tr>
+            <tr>
+                <td>Shark</td>
+                <td>Octopus</td>
+                <td>Mackerelpike</td>
+            </tr>
+        </table>
+        <p>rowspan속성을 사용하면 테이블의 행을 합칠 수 있다</p>
+        <table style="width:100%">
+            <tr style="background-color: aliceblue">
+                <td style="background-color: antiquewhite"rowspan="2">Shark</td>
+                <!--style과 rowspan 한번에-->
+                <td>Octopus</td>
+                <td>Mackerelpike</td>
+            </tr>
+            <tr>
+                <td>Mackerel</td>
+                <td>Dolphin</td>
+            </tr>
+        </table>
+        <p>행과 열 마구 합치기</p>
+        <table style="width:100%">
+            <tr style="background-color:azure">
+                <td colspan="6">1</td>
+            </tr>
+            <tr style="background-color:aliceblue">
+                <td colspan="6">2</td>
+            </tr>
+            <tr>
+                <td style="background-color: antiquewhite"rowspan="3">3</td>
+                <td rowspan="3">4</td>
+                <td style="background-color: blanchedalmond"colspan="2">5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td style="background-color: burlywood"rowspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td colspan="4">10</td>
+            </tr>
+        </table>
+        <p>캡션달수 있음</p>
+        <table style="width:100%">
+            <caption style="color: red">해양 생물</caption>
+            <tr>
+                <td>Tuna</td>
+                <td>Whale</td>
+                <td>Flyingfish</td>
+            </tr>
+        </table>
+        <hr>
     </body><!--종료 태그-->
 </html>
