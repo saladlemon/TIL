@@ -132,7 +132,24 @@
         <a href="/html/intro">
             <h2>이 링크를 클릭해보세요!</h2>
         </a>
-        <!--target-->
+        <!--target
+        "<a>태그의 target속성은 링크로 연결된 문서를 어디에서 열지를 명시"
+            _blank: 링크로 연결된 문서를 새 창, 탭에서 오픈
+            _self: 링크로 연결된 문서를 현재 프레임에서 오픈(기본)
+            _parent: 링크로 연결된 문서를 부모 프레임에서 오픈
+            _top: 링크로 연결된 문서를 현재 창의 가장 상위 프레임에서 오픈
+            -->
+        <h2><a href="/html/intro"target="_blank">blank</a></h2>
+        <h2><a href="/html/intro"target="_self">self</a></h2>
+        <h2><a href="/html/intro"target="_parent">parent</a></h2>
+        <h2><a href="/html/intro"target="_top">top</a></h2>
+        <!--링크 상태
+            link: 아직 한 번도 방문한 적이 없는 상태
+            visited: 한 번이라도 방문한 적이 있는 상태
+            hover: 링크 위에 마우스를 올려놓은 상태
+            active: 링크를 마우스로 누르고 있는 상태-->
+        <hr>
+        <p><mark>이미지</mark></p>
         
     </body><!--종료 태그-->
 </html>
