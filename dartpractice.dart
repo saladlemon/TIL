@@ -1,10 +1,10 @@
 void main() {
   // string interpolation
-  var name = 'hoon';
+  /*var name = 'hoon';
   var age = 28;
   var greeting =
       "Hello everyone, my name is $name, and I'm ${age} nice to meet you!";
-  print(greeting);
+  print(greeting);*/
   // collection for
   var oldFriends = ['nico', 'lynn'];
   var newFriends = [
@@ -27,13 +27,25 @@ void main() {
   numbers.add(1);
   numbers.add(1);
   print(numbers);
-  //defining a funcion
-  sayHello(name);
-  plus(4, 5);
+  //named parameters
+  print(sayHello(
+    age: 12,
+    country: 'cuba',
+    name: 'hoon',
+  ));
+  var res = sahello('nico', 12);
+  print(res);
 }
 
-void sayHello(String name) {
-  print("Hello $name nice to meet you");
+//defining function
+String sayHello({
+  required String name,
+  required int age,
+  required String country,
+}) {
+  return "Hello $name, you are $age, and you come from $country";
 }
 
-num plus(num a, num b) => a + b;
+// optional position parameters
+String sahello(String name, int age, [String? country = 'cuba']) =>
+    'hello $name, you are $age years old from $country';
