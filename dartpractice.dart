@@ -39,9 +39,9 @@ void main() {
 
 //defining function
 String sayHello({
-  required String name,
   required int age,
   required String country,
+  required String name,
 }) {
   return "Hello $name, you are $age, and you come from $country";
 }
