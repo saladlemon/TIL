@@ -20,6 +20,7 @@ void main() {
     'xp': 19.99,
     'superpower': false,
   };
+
   //sets
   Set<int> numbers = {1, 2, 3, 4};
   numbers.add(1);
@@ -33,7 +34,7 @@ void main() {
     country: 'cuba',
     name: 'hoon',
   ));
-  var res = sahello('nico', 12);
+  var res = sayhello('nico', 12);
   print(res);
 }
 
@@ -47,5 +48,5 @@ String sayHello({
 }
 
 // optional position parameters
-String sahello(String name, int age, [String? country = 'cuba']) =>
+String sayhello(String name, int age, [String? country = 'cuba']) =>
     'hello $name, you are $age years old from $country';
