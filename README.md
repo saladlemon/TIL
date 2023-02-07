@@ -10,3 +10,4 @@
 ---
 # 2023
 [레드벨벳 ToDo List(ValinaJS)](https://github.com/saladlemon/redvelvetmomentum.git) 
+[L todolist link](https://saladlemon.github.io/redvelvetmomentum/)
