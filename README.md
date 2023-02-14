@@ -2,7 +2,9 @@
 
 ---
 
-# 2022
+## 2022
+
+_study_
 
 [마크다운(Markdown)사용법](markdown.md)
 
@@ -10,6 +12,11 @@
 
 ---
 
-# 2023
+## 2023
+
+_project_
 
 [레드벨벳 ToDo List - (JS code)](https://github.com/saladlemon/redvelvetmomentum.git)[link](https://saladlemon.github.io/redvelvetmomentum/)
+
+_study_
+[20230214 - React App 설치와 프로젝트 실행](2023/20230214.md)
