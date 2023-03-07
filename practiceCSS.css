@@ -1,7 +1,28 @@
-/*주석 내용*/
-body{
-    background-color: lightyellow;
+h3,
+li {
+  color: brown;
 }
-p{
-    color: red; text-decoration: underline;
+.warning {
+  color: red;
+}
+.main {
+  background: aliceblue;
+}
+
+#list {
+  background: mistyrose;
+}
+
+ul strong {
+  color: dodgerblue;
+}
+div > strong {
+  background: yellow;
+}
+
+h3:first-letter {
+  color: red;
+}
+li:hover {
+  background: yellowgreen;
 }
