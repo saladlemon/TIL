@@ -6,22 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="practiceCSS.css" />
-    <title>다양한 테두리</title>
+    <title>absolute 배치</title>
   </head>
-  <style></style>
+  <style>
+    div {
+      display: inline-block;
+      position: absolute;
+      border: 1px solid lightgray;
+    }
+    div > p {
+      display: inline-block;
+      position: absolute;
+      height: 20px;
+      width: 15px;
+      background: lightgray;
+    }
+  </style>
 
   <body>
-    <h3>다양한 테두리</h3>
+    <h3>Merry Christmas!</h3>
     <hr />
-    <p style="border: 3px solid blue">3px solid</p>
-    <p style="border: 3px none blue">3px none</p>
-    <p style="border: 3px hidden blue">3px hidden</p>
-    <p style="border: 3px dotted blue">3px dotted</p>
-    <p style="border: 3px dashed blue">3px dashed</p>
-    <p style="border: 3px double blue">3px double</p>
-    <p style="border: 15px groove yellow">15px groove</p>
-    <p style="border: 15px ridge yellow">15px ridge</p>
-    <p style="border: 15px inset yellow">15px inset</p>
-    <p style="border: 15px outset yellow">15px outset</p>
+    <p>예수님이 탄생하셨습니다.</p>
+    <div>
+      <img
+        src="media/christmastree.png"
+        width="200"
+        height="200"
+        alt="크리스마스트리"
+      />
+      <p style="left: 50px; top: 30px">M</p>
+      <p style="left: 100px; top: 0px">E</p>
+      <p style="left: 100px; top: 80px">R</p>
+      <p style="left: 150px; top: 110px">R</p>
+      <p style="left: 30px; top: 130px">Y</p>
+    </div>
   </body>
 </html>
