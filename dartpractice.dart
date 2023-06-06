@@ -15,11 +15,11 @@ void main() {
   ];
   print(newFriends);
   //maps
-  var player = {
+  /*var player = {
     'name': 'nico',
     'xp': 19.99,
     'superpower': false,
-  };
+  };*/
 
   //sets
   Set<int> numbers = {1, 2, 3, 4};
