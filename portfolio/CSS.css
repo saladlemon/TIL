@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.main {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "logo header header"
+    "content content content"
+    "footer footer footer";
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 150px 1fr 1fr;
+  gap: 1px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.box {
+  background-color: #ded1f3;
+  color: #11216b;
+}
+.logo {
+  grid-area: logo;
+}
+.header {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.footer {
+  grid-area: footer;
+}
