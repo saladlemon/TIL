@@ -28,7 +28,7 @@ body {
 }
 
 .flip-btn:hover {
-  transform: rotateX(-90deg);
+  transform: rotateX(-45deg) rotateY(-45deg);
 }
 
 .front {
@@ -41,4 +41,12 @@ body {
   background-color: darkgoldenrod;
   height: 100px;
   transform: rotateX(90deg) translateZ(150px);
+}
+.right {
+  background-color: darkolivegreen;
+  height: 100px;
+  width: 100px;
+  transform: rotateY(90deg) translateY(-200px) translateZ(50px);
+  position: absolute;
+  left: 50%;
 }
