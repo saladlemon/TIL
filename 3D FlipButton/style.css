@@ -28,7 +28,7 @@ body {
 }
 
 .flip-btn:hover {
-  transform: rotateX(-45deg) rotateY(-45deg);
+  transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 }
 
 .front {
@@ -37,16 +37,30 @@ body {
   transform: translateZ(50px);
 }
 
-.back {
+.top {
   background-color: darkgoldenrod;
   height: 100px;
   transform: rotateX(90deg) translateZ(150px);
+}
+.bottom {
+  background-color: greenyellow;
+  transform: rotateX(-90deg) translateZ(-150px);
+}
+.back {
+  background-color: darkkhaki;
+  transform: rotateY(180deg) translateY(-300px) translateZ(50px);
 }
 .right {
   background-color: darkolivegreen;
   height: 100px;
   width: 100px;
-  transform: rotateY(90deg) translateY(-200px) translateZ(50px);
+  transform: rotateY(90deg) translateY(-400px) translateZ(50px);
   position: absolute;
   left: 50%;
+}
+.left {
+  background-color: salmon;
+  height: 100px;
+  width: 100px;
+  transform: rotateY(-90deg) translateY(-400px) translateZ(50px);
 }
