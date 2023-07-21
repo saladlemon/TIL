@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  text-align: center;
+  background-color: aquamarine;
+}
+.members {
+  padding: 10px;
+  text-align: center;
+}
+.members ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+}
+.image {
+  background-image: url(https://pbs.twimg.com/media/ExNfp8cVoAAlaSQ?format=jpg&name=large);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
