@@ -1,0 +1,39 @@
+body {
+  background-image: url(./img/Sea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#title {
+  background-color: none;
+}
+.menu {
+  background-color: none;
+}
+.mainview {
+  margin: auto;
+  width: 80%;
+  height: 80.5vh;
+  border-radius: 50px;
+  background-color: rgba(155, 184, 242, 0.28);
+}
+#home {
+  display: block;
+  padding: 30px;
+}
+#introduce {
+  display: none;
+}
+#project {
+  display: none;
+}
+#contact {
+  display: none;
+}
