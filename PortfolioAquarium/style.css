@@ -13,11 +13,28 @@ body {
 }
 #title {
   background-color: none;
+  color: #035aa6;
 }
 .menu {
   background-color: none;
 }
-.mainview {
+button {
+  margin: 3px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  border: 3px solid #0d9cbd;
+  color: #0597f2;
+  font-size: 15px;
+  transition: 0.25s;
+}
+button:hover {
+  letter-spacing: 2px;
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #0d9cbd;
+  color: white;
+}
+.bgbox {
   margin: auto;
   width: 80%;
   height: 80.5vh;
@@ -25,14 +42,69 @@ body {
   background-color: rgba(155, 184, 242, 0.28);
 }
 #home {
-  display: block;
   padding: 30px;
+}
+#home > h2 {
+  color: rgba(215, 245, 245, 0.533);
+  font-size: 100px;
+}
+.letter {
+  padding: 100px 0px;
+}
+#home > div {
+  color: #bbcdf2;
+  font-size: 16px;
 }
 #introduce {
   display: none;
 }
+#introduce > div {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
 #project {
   display: none;
+  padding: 20px;
+}
+#btnWrap {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+#popupBtn {
+  display: inline-block;
+  width: 80%;
+  height: 50px;
+}
+#modalWrap {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#modalBody {
+  margin: auto;
+  width: 80%;
+  height: 80.5vh;
+  border-radius: 50px;
+  padding: 30px 30px;
+  margin: auto auto;
+  border: 5px solid #0742f2;
+  background-color: #fff;
+}
+#closeBtn {
+  float: right;
+  font-weight: bold;
+  color: #777;
+  font-size: 70px;
+  cursor: pointer;
 }
 #contact {
   display: none;

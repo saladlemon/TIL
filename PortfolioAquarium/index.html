@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio by Jeon Do Hun</title>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -21,58 +22,71 @@
           Project
         </button>
         <button id="contactButton" type="button" onclick="clickContact()">
-          contact
+          Contact
         </button>
       </div>
     </div>
 
     <div class="mainview">
       <div id="home">
-        <h2>Under the Front-End ocean</h2>
-        <div>
-          The beauty and mystery of the ocean, fills our lives with wonders,
-          vast beyond our imagination.
-        </div>
-        <div>
-          개발자의 포트폴리오는 각자 입맛에 맞는 아쿠아리움을 꾸미는 작업이라고
-          생각합니다.
-        </div>
-        <div>
-          어항에 다양한 물고기를 채워 넣듯이, 여러 결과물을 채워 넣을
-          예정입니다.
-        </div>
-        <div>
-          채워 넣은 수족관이 거대한 바다가 될지, 방치된 어항이 될지는 알 수
-          없지만
-        </div>
-        <div>
-          멋진 아쿠아리움으로 보여질 수 있게 만드는 것이 저의 목표입니다.
+        <h2>Under the programming ocean</h2>
+        <div class="letter">
+          <div>
+            개발자의 포트폴리오는 각자 입맛에 맞는 아쿠아리움을 꾸미는
+            작업이라고 생각합니다.
+          </div>
+          <div>
+            어항에 다양한 물고기를 채워 넣어 키우듯이, 여러 결과물을 채워 넣을
+            예정입니다.
+          </div>
+          <div>
+            채워 넣은 수족관이 거대한 바다가 보일지, 작은 연못으로 보일지는 알
+            수 없지만
+          </div>
+          <div>
+            적어도 내게는 멋진 아쿠아리움으로 보여질 수 있게 만드는 것이 저의
+            목표입니다.
+          </div>
         </div>
       </div>
 
-      <div id="introduce">
-        <p>전도훈(Jeon Do Hun)</p>
-        <p>Gwacheon, 1995</p>
-        <p>한국외국어대학교 정보통신공학과 졸업</p>
-        <p>
-          제가 만든 것을 다른 사람들에게 보여주고 그에 따른 반응을 보는 것을
-          좋아합니다.
-        </p>
-        <p>
-          프론트엔드는 코드를 작성하면 바로 눈 앞에 나타나며 다른 사람들의
-          즉각적인 피드백이 가능하기 때문에 관심이 생겨 공부하기 시작했습니다.
-        </p>
-        <p>나만의 서비스를 운영하는 개발자가 되는 것을 목표 하고 있습니다.</p>
+      <div class="bgbox" id="introduce">
+        <div>이름: 전도훈(Jeon Do Hun)</div>
+        <div>학력: 한국외국어대학교 정보통신공학과 졸업</div>
+        <div>자격증: 정보처리기사(2021. 06)</div>
+        <div>어학: TOEIC 665(2022. 10)</div>
+        <div>
+          코드를 작성한 결과물이 바로 눈 앞에 보이는 것이 신기하고, 다른
+          사람들의 피드백이 가능한 것에 재미를 느껴 공부하기 시작했습니다.
+        </div>
+        <div>
+          언젠가 나만의 서비스를 운영하는 개발자가 되는 것이 목표 입니다.
+        </div>
       </div>
-      <div id="project">
-        <div>레벨업 To-do List</div>
-        <a
-          href="https://saladlemon.github.io/redvelvetmomentum/"
-          target="_blank"
-          >형 여기 링크야</a
-        >
+      <div class="bgbox" id="project">
+        <div id="btnWrap">
+          <button type="button" id="popupBtn">Revel-Up To-do List</button>
+        </div>
+        <div id="modalWrap">
+          <div id="modalContent">
+            <div id="modalBody">
+              <span id="closeBtn">&times;</span>
+
+              <div>HTML, CSS, Javascript</div>
+              <div>
+                나의 최애들이 응원해주는 투두리스트라면 더 잘 지킬 수 있지
+                않을까?
+              </div>
+              <a
+                href="https://saladlemon.github.io/redvelvetmomentum/"
+                target="_blank"
+                >형 여기 링크야</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="contact">
+      <div class="bgbox" id="contact">
         <div>
           깃허브
           <a href="https://github.com/saladlemon" target="_blank">github</a>
@@ -82,15 +96,7 @@
       </div>
     </div>
 
-    <script>
-      let titleEvent = document.getElementById("homebutton");
-      titleEvent.addEventListener("mouseover", function (change) {
-        change.target.style.color = "red";
-      });
-      titleEvent.addEventListener("mouseout", function (event) {
-        event.target.style.color = "blue";
-      });
-    </script>
-    <script src="buttonClick.js"></script>
+    <script src="./js/buttonClick.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
